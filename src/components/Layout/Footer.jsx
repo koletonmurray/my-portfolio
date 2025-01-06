@@ -6,6 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import BusinessIcon from '@mui/icons-material/Business';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import Hyperlink from '../Hyperlink';
 import Logo from '../Logo';
 
@@ -16,56 +17,42 @@ export default function Footer () {
         <footer>
             {/* Section 1 = Contact/Social */}
             <div className='flex flex-col sm:flex-row justify-center gap-10 sm:gap-8 xl:gap-64 py-8 bg-midBlue text-white'>
-                {/* Section 1a - Contact Information */}
+                {/* Section 1a - Email */}
                 <div className='flex flex-col gap-2'>
-                    <h3 className='text-2xl font-semibold pb-2 text-white'>Contact</h3>
+                    <h3 className='text-2xl font-semibold pb-2 text-white'>Email</h3>
                     <Hyperlink
-                        href="https://maps.app.goo.gl/LWuMmUaAeAJrZeGB9"
-                        IconComponent={BusinessIcon}
-                        externalLink = {true}
-                    >
-                        XXXX East Maple St. <br/>Mapleton, UT 84664
-                    </Hyperlink>
-                    <Hyperlink
-                        href="tel:801XXXXXXX"
-                        IconComponent={PhoneIcon}
-                        externalLink = {true}
-                    >
-                        801-XXX-XXXX
-                    </Hyperlink>
-                    <Hyperlink
-                        href="mailto:office@murrayelectric.com"
+                        href="mailto:koletonmurray7@gmail.com"
                         IconComponent={EmailIcon}
                         externalLink = {true}
                     >
-                        office@murrayelectric.com
+                        koleton@murray.com
                     </Hyperlink>
                 </div>
-                {/* Section 1b - Social Media Information */}
+                {/* Section 1b - Follow Me */}
                 <div className='flex flex-col items-center'>
-                    <h3 className='text-2xl font-semibold pb-2 sm:pb-8 text-white'>Social Media</h3>
+                    <h3 className='text-2xl font-semibold pb-2 sm:pb-8 text-white'>Follow</h3>
                     <div className='flex gap-1'>
+                        <IconButton href="https://www.linkedin.com/in/koleton-murray/" target="_blank" icon={<LinkedInIcon />} color="#0077B5" logoColor={"#FFFFFF"} />
+                        <IconButton href="https://github.com/koletonmurray" target="_blank" icon={<GitHubIcon />} color="#6e5494" logoColor={"#FFFFFF"} />
+                    </div>
+                    {/* <div className='flex gap-1 pt-2'>
                         <IconButton href="https://www.facebook.com/koleton.murray/" target="_blank" icon={<FacebookIcon />} color="#3b5998" logoColor={"#FFFFFF"} />
                         <IconButton href="https://www.instagram.com/koleton_murray/" target="_blank" icon={<InstagramIcon />} color="#C13584" logoColor={"#FFFFFF"} />
-                        <IconButton href="https://www.linkedin.com/in/koleton-murray/" target="_blank" icon={<LinkedInIcon />} color="#0077B5" logoColor={"#FFFFFF"} />
-                    </div>
+                    </div> */}
                 </div>
-                {/* Section 1c - About Us/Our History */}
+                {/* Section 1c - About Us/Our History
                  <div className='flex flex-col items-center'>
-                    <h3 className='text-2xl font-semibold pb-2 sm:pb-8 text-white'>About Us</h3>
+                    <h3 className='text-2xl font-semibold pb-2 sm:pb-8 text-white'>About Me</h3>
                      <Hyperlink href='/about'>
-                        Learn About Our History
+                        Learn About Koleton
                     </Hyperlink>
-                 </div>
+                </div> */}
             </div>
 
             {/* Section 2 = Footer, Privacy */}
             <div className='justify-center p-6 bg-darkBlue text-white'>
                 <div className='text-3xl font-semibold py-4'><Logo/></div>
-                <p className='text-white'>{`Mapleton, UT 84664, USA | © ${currentYear}`}</p>
-                <Hyperlink href={'/privacy'}>
-                    Privacy Notice
-                </Hyperlink>
+                <p className='text-white'>{`UT, USA | © ${currentYear}`}</p>
             </div>
         </footer>
     )

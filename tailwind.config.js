@@ -11,11 +11,11 @@ export default {
         'mediumGray': '#666666',
         'lightGray': '#D3D3D3',
         'black': '#041e2e',
-        'yellow': '#eccf69',
-        'lightYellow': '#fff8dd',
-        'lightBlue': '#57b9d0',
-        'darkBlue': '#25657a',
-        'midBlue': '#3587a1'
+        'yellow': '#05F2DB',
+        'lightYellow': '#05F2DB',
+        'lightBlue': '#B4ECEB',
+        'darkBlue': '#1C5B74',
+        'midBlue': '#6CA4AC'
       },
     },
   },

@@ -6,7 +6,7 @@ export default function NavBar({routes}) {
 
   return (
     <header id="header">
-      <div className="mx-auto hidden sm:block px-2 md:px-8 bg-midBlue text-white">
+      <div className="mx-auto hidden sm:block px-2 md:px-8 bg-darkBlue text-white">
         <nav className="links">
           <ul className="flex items-center py-4 justify-left gap-3 md:gap-5 lg:gap-8 font-semibold">
             {routes.map((route) => (

@@ -7,32 +7,30 @@
     --mediumGray: #666666;
     --lightGray: #D3D3D3;
     --black: #041e2e;
-    --yellow: #eccf69;
-    --lightYellow: #fff8dd;
-    --lightBlue: #57b9d0;
-    --darkBlue: #25657a;
-    --midBlue: #3587a1;
+    --yellow: #05F2DB;
+    --lightYellow: #05F2DB;
+    --lightBlue: #B4ECEB;
+    --darkBlue: #1C5B74;
+    --midBlue: #6CA4AC;
 }
 
 h1, h2, h3,
 h4, h5, h6 {
     color: var(--darkBlue);    
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     padding-top: .5em;
 
 }
 
 body, p {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: var(--black);
 }
 
 .logoMain {
-    font-family: 'Signika', sans-serif;
-}
-.logoSub {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 
 h1 {

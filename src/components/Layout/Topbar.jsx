@@ -1,26 +1,26 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
 import Logo from '../Logo';
-import logoImage from '../../assets/logoSquare.png';
-import iconImage from '../../assets/iconCircle.png'
-import { Icon, IconButton } from '@mui/material';
+import logoImage from '../../assets/icon.png';
+import iconImage from '../../assets/icon.png'
+import { IconButton } from '@mui/material';
 import Menu from '@mui/icons-material/Menu';
 
 
 function Topbar({setOpen}) {
   return (
-    <div className="bg-darkBlue flex justify-between items-center px-2 py-2 sm:py-4">
+    <div className="bg-midBlue flex justify-between items-center px-2 py-2 sm:py-4">
       <div className='flex justify-start items-center flex-1'>
         <div className='w-1/4 flex sm:hidden'>
           <IconButton onClick={() => setOpen(true)}>
             <Menu style={{ color: 'white' }}/>
           </IconButton>
         </div>
-        <div className= 'hidden sm:flex px-4'>
+        {/* <div className= 'hidden sm:flex px-4'>
           <Link to={'/'}>
-            <Logo color={'yellow'} weight={'medium'} size={'xl'}/>
+            <Logo color={'lightBlue'} weight={'medium'} size={'xl'}/>
           </Link>
-        </div>
+        </div> */}
       </div>
       
       <Link to={'/'}>
@@ -28,7 +28,7 @@ function Topbar({setOpen}) {
       </Link>
 
       <div className='hidden sm:flex justify-end items-center flex-1'>
-        <img src={iconImage} className='h-[3em] pr-3'/>
+        <img src={''} className='h-[3em] pr-3'/>
       </div>
     </div>
   )

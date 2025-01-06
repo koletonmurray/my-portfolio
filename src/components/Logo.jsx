@@ -17,13 +17,10 @@ const Logo = ({styling, color, size, weight, dropPeriod = false}) => {
     const textColorClass = color ? colorClasses[color] : '';
     const textSizeClass = size ? `text-${size}` : '';
     const textWeightClass = weight ? `font-${weight}` : '';
-    const companySuffix = dropPeriod ? `Electric\u00A0Corp` : `Electric\u00A0Corp.`;
-
 
     return (
         <span className={`${styling} ${textColorClass} ${textSizeClass} ${textWeightClass}`}>
-            <span className="logoMain">MURRAY </span>
-            <span className='logoSub'>{companySuffix}</span>
+            <span className="logoMain">Koleton Murray</span>
         </span>
     );
 };
