@@ -31,7 +31,7 @@ export default function Layout ({ children }) {
           <NavDrawer routes={routes} setOpen={setMobileNavOpen}/>
         </Drawer>
         <NavBar routes={routes}/>
-        <main className='px-10 sm:px-20 py-10 bg-white text-midBlue'>
+        <main className='px-10 sm:px-20 py-10 bg-white text-midBlue max-w-[1000px] mx-auto'>
           {children}
         </main>
         <Footer />

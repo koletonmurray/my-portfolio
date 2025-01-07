@@ -23,7 +23,7 @@ export default function NavBar({routes}) {
           </ul>
         </nav>
       </div>
-      <div className="mx-auto block sm:hidden px-2 md:px-8 bg-midBlue text-white h-10"/>
+      <div className="mx-auto block sm:hidden px-2 md:px-8 bg-darkBlue text-white h-10"/>
     </header>
   );
 }

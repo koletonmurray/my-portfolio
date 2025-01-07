@@ -12,7 +12,7 @@ export default function Home() {
                 </div>
                 <div className="flex-1 text-left">
                     <p>
-                       <Logo/> is a web developer based in Utah
+                       Hi! My name is <Logo/>. I am a full-stack web developer based in Utah.
                     </p>
                 </div>
             </div>

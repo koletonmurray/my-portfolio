@@ -24,7 +24,7 @@ function Topbar({setOpen}) {
       </div>
       
       <Link to={'/'}>
-        <img src={logoImage} className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10 h-[8em] pt-2" alt="Centered Image"/>
+        <img src={logoImage} className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10 h-[7em] sm:h-[8em] sm:pt-2" alt="Centered Image"/>
       </Link>
 
       <div className='hidden sm:flex justify-end items-center flex-1'>

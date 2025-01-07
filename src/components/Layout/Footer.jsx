@@ -16,21 +16,21 @@ export default function Footer () {
     return (
         <footer>
             {/* Section 1 = Contact/Social */}
-            <div className='flex flex-col sm:flex-row justify-center gap-10 sm:gap-8 xl:gap-64 py-8 bg-midBlue text-white'>
+            <div className='flex flex-col sm:flex-row justify-center gap-10 sm:gap-20 xl:gap-64 py-8 bg-midBlue text-white'>
                 {/* Section 1a - Email */}
-                <div className='flex flex-col gap-2'>
+                <div className='flex flex-col gap-1'>
                     <h3 className='text-2xl font-semibold pb-2 text-white'>Email</h3>
                     <Hyperlink
-                        href="mailto:koletonmurray7@gmail.com"
+                        href="mailto:mail@koleton.dev"
                         IconComponent={EmailIcon}
                         externalLink = {true}
                     >
-                        koleton@murray.com
+                        mail@koleton.dev
                     </Hyperlink>
                 </div>
                 {/* Section 1b - Follow Me */}
                 <div className='flex flex-col items-center'>
-                    <h3 className='text-2xl font-semibold pb-2 sm:pb-8 text-white'>Follow</h3>
+                    <h3 className='text-2xl font-semibold pb-2 text-white'>Follow</h3>
                     <div className='flex gap-1'>
                         <IconButton href="https://www.linkedin.com/in/koleton-murray/" target="_blank" icon={<LinkedInIcon />} color="#0077B5" logoColor={"#FFFFFF"} />
                         <IconButton href="https://github.com/koletonmurray" target="_blank" icon={<GitHubIcon />} color="#6e5494" logoColor={"#FFFFFF"} />
