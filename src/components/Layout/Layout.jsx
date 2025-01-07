@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import NavBar from './NavBar';
-import NavDrawer from './NavDrawer';
+import NavBar from './NavBar.jsx';
+import NavDrawer from './NavDrawer.jsx';
 import Drawer from '@mui/material/Drawer';
-import Footer from './Footer';
-import Topbar from './Topbar';
+import Footer from './Footer.jsx';
+import Topbar from './Topbar.jsx';
 
 const routes = [
     {
