@@ -8,10 +8,10 @@ import { Link } from 'react-router-dom';
 import Hyperlink from '../Hyperlink';
 import Logo from '../Logo';
 
-export default function ContactUs () {
+export default function Contact () {
     return (
         <>
-            <h1>Contact Us</h1>
+            <h1>Contact</h1>
 
             <div className='w-[85%] sm:w-[70%] mx-auto'>
                 <div className='flex flex-col items-center md:flex-row lg:justify-center gap-12 py-20 px-5'>

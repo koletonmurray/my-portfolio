@@ -15,8 +15,8 @@ const routes = [
       path: "/about",
     },
     {
-      label: "Contact Me",
-      path: '/contact-me'
+      label: "Contact",
+      path: '/contact'
     }
   ];
 
