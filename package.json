@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node generate-sitemap.js",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start": "npm run serve",
@@ -17,7 +17,8 @@
     "@mui/icons-material": "^5.15.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.3"
+    "react-router-dom": "^6.22.3",
+    "sitemap": "^8.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.64",
