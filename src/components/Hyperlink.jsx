@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Hyperlink = ({ href, IconComponent, children, externalLink = false, color = 'lightYellow' }) => {
+const Hyperlink = ({ href, IconComponent, children, externalLink = false, color = 'midBlue' }) => {
   const baseClass = 'pb-2 hover:underline underline-offset-4';
   const hoverColorClass = `hover:text-${color}`;
   const getClassName = `${baseClass} ${hoverColorClass} line`;

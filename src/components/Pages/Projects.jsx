@@ -21,30 +21,15 @@ const projectList = [
 
 export default function Projects() {
     return (
-        <div className="text-left">
-            <h2>Featured Projects</h2>
-            <div>
-                {projectList.map((project, index) => {
-                    console.log("Rendering project:", project); // Debugging
-                    return <ProjectCard key={index} project={project} />;
-                })}
+        <>
+            <div className="text-left px-5 sm:px-20 pt-5 text-black">
+                <h2 className="text-center">Featured Projects</h2>
+                <div>
+                    {projectList.map((project, index) => {
+                        return <ProjectCard key={index} project={project} />;
+                    })}
+                </div>
             </div>
-            <h2>Technical Skills</h2>
-            <ul>
-                <li><b>Proficient</b>: JavaScript, React, Python, AWS, SQL, HTML, CSS.</li>
-                <li><b>Experienced</b>: Swift, TypeScript, Node.js, Django, Tableau.</li>
-                <li><b>Certified</b>: AWS Cloud Practitioner, Professional Scrum Master I.</li>
-            </ul>
-            <h2>Education & Certifications</h2>
-            <p>
-                •	Master of Science in Information Systems Management (In Progress) – Brigham Young University.
-                •	Certifications: AWS Cloud Practitioner, Professional Scrum Master I.
-            </p>
-            <h2>Volunteer Work & Leadership</h2>
-            <p>
-                •	Volunteer Income Tax Assistance Program: Helped low-income families secure tax refunds.
-                •	Eagle Scout: Honed discipline, leadership, and community service.
-            </p>
-        </div>
+        </>
     )
 }

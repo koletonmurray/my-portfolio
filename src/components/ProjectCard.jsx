@@ -8,7 +8,7 @@ export default function ProjectCard ( {project} ) {
     console.log(subtitle)
 
     return (
-        <div>
+        <div className="pb-5">
             {title && <h3>{title}</h3>}
             {subtitle && <h4>{subtitle}</h4>}
             {skills && 
