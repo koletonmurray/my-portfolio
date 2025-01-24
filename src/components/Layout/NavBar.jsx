@@ -12,7 +12,7 @@ export default function NavBar({routes}) {
             {routes.map((route) => (
               <li
                 key={route.label}
-                className={`${location.pathname === route.path ? 'underline decoration-2 underline-offset-8 text-lightBlue' : 'text-white hover:text-lightBlue'} transition-all duration-300 ease-in-out hover:underline hover:decoration-2 hover:underline-offset-4`}
+                className={`${location.pathname === route.path ? 'underline decoration-2 underline-offset-8 text-lightBlue' : 'text-white hover:text-lightBlue'} transition-all duration-300 ease-in-out hover:underline hover:decoration-2 hover:underline-offset-4 hover:scale-105`}
               >
                 <Link to={route.path} className="relative inline-block">
                   {route.label}
@@ -23,7 +23,7 @@ export default function NavBar({routes}) {
           </ul>
         </nav>
       </div>
-      <div className="mx-auto block sm:hidden px-2 md:px-8 bg-darkBlue text-white h-10"/>
+      <div className="mx-auto block sm:hidden px-2 md:px-8 bg-darkBlue text-white h-5"/>
     </header>
   );
 }

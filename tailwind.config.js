@@ -7,15 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        'darkGray': '#141414',
-        'mediumGray': '#666666',
-        'lightGray': '#D3D3D3',
         'black': '#041e2e',
-        'yellow': '#05F2DB',
-        'lightYellow': '#05F2DB',
-        'lightBlue': '#B4ECEB',
+        'cream': '#F1F0E8',
         'darkBlue': '#1C5B74',
-        'midBlue': '#6CA4AC'
+        'darkGray': '#141414',
+        'lightBlue': '#B4ECEB',
+        'lightGray': '#D3D3D3',
+        'midBlue': '#6CA4AC',
+        'midPurple': '#6e5494',
+        'mediumGray': '#666666'
       },
     },
   },

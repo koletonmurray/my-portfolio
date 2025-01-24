@@ -17,10 +17,6 @@ const routes = [
     {
       label: "Projects",
       path: '/projects'
-    },
-    {
-      label: "Contact",
-      path: '/contact'
     }
   ];
 
@@ -29,14 +25,14 @@ export default function Layout ({ children }) {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);  
 
     return (
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen transition">
         <Topbar open={mobileNavOpen} setOpen={setMobileNavOpen} />
         <Drawer open={mobileNavOpen} onClose={() => setMobileNavOpen(false)}>
           <NavDrawer routes={routes} setOpen={setMobileNavOpen} />
         </Drawer>
         <NavBar routes={routes} />
         <main className="flex-grow bg-white">
-          <div className="px-10 sm:px-20 py-10 text-midBlue max-w-[1000px] mx-auto">
+          <div>
             {children}
           </div>
         </main>

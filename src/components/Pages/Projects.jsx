@@ -22,12 +22,14 @@ const projectList = [
 export default function Projects() {
     return (
         <>
-            <div className="text-left px-5 sm:px-20 pt-5 text-black">
-                <h2 className="text-center">Featured Projects</h2>
-                <div>
-                    {projectList.map((project, index) => {
-                        return <ProjectCard key={index} project={project} />;
-                    })}
+            <div className="px-10 sm:px-20 py-10 text-midBlue max-w-[1000px] mx-auto">
+                <h1 className="text-center">Featured Projects</h1>
+                <div className="text-left px-5 sm:px-20 sm:pt-5 text-black">
+                    <div>
+                        {projectList.map((project, index) => {
+                            return <ProjectCard key={index} project={project} />;
+                        })}
+                    </div>
                 </div>
             </div>
         </>

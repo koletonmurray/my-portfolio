@@ -9,25 +9,24 @@ import Menu from '@mui/icons-material/Menu';
 
 function Topbar({setOpen}) {
   return (
-    <div className="bg-midBlue flex justify-between items-center px-2 py-2 sm:py-4">
+    <div className="bg-gradient-to-r from-darkBlue to-midBlue flex justify-between items-center px-2 py-2 sm:py-4">
       <div className='flex justify-start items-center flex-1'>
-        <div className='w-1/4 flex sm:hidden'>
+        <div className='sm:hidden absolute top-3 left-3'>
           <IconButton onClick={() => setOpen(true)}>
             <Menu style={{ color: 'white' }}/>
           </IconButton>
         </div>
-        {/* <div className= 'hidden sm:flex px-4'>
-          <Link to={'/'}>
-            <Logo color={'lightBlue'} weight={'medium'} size={'xl'}/>
-          </Link>
-        </div> */}
       </div>
       
       <Link to={'/'}>
-        <img src={logoImage} className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10 h-[7em] sm:h-[8em] sm:pt-2" alt="Centered Image"/>
+        <img 
+          src={logoImage} 
+          className="absolute top-0 right-0 z-10 h-[6em] sm:h-[8em] pr-2 sm:pr-10" 
+          alt="Koleton Murray logo"
+        />
       </Link>
 
-      <div className='hidden sm:flex justify-end items-center flex-1'>
+      <div className='flex justify-end items-center flex-1'>
         <img src={''} className='h-[3em] pr-3'/>
       </div>
     </div>
