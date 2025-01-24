@@ -21,7 +21,7 @@ import {
         </CardBody>
         <CardFooter className="pt-0">
           <a href={buttonLink} className="inline-block">
-            <Button size="sm" variant="text" className="flex items-center gap-2 border border-darkBlue sm:border-midBlue hover:border-darkBlue text-white bg-darkBlue sm:text-darkBlue sm:bg-white hover:bg-darkBlue hover:text-white ">
+            <Button size="sm" variant="text" className="flex items-center gap-2 border border-darkBlue sm:border-midBlue hover:border-darkBlue text-white bg-darkBlue sm:text-darkBlue sm:bg-white hover:bg-darkBlue hover:text-white px-3">
               {buttonText} →
             </Button>
           </a>
