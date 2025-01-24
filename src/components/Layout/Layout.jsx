@@ -28,17 +28,19 @@ const routes = [
 export default function Layout ({ children }) {  
     const [mobileNavOpen, setMobileNavOpen] = useState(false);  
 
-    return  (
-      <>
+    return (
+      <div className="flex flex-col min-h-screen">
         <Topbar open={mobileNavOpen} setOpen={setMobileNavOpen} />
         <Drawer open={mobileNavOpen} onClose={() => setMobileNavOpen(false)}>
-          <NavDrawer routes={routes} setOpen={setMobileNavOpen}/>
+          <NavDrawer routes={routes} setOpen={setMobileNavOpen} />
         </Drawer>
-        <NavBar routes={routes}/>
-        <main className='px-10 sm:px-20 py-10 bg-white text-midBlue max-w-[1000px] mx-auto'>
-          {children}
+        <NavBar routes={routes} />
+        <main className="flex-grow bg-white">
+          <div className="px-10 sm:px-20 py-10 text-midBlue max-w-[1000px] mx-auto">
+            {children}
+          </div>
         </main>
         <Footer />
-      </>
-    )
+      </div>
+    );
 }

@@ -14,6 +14,10 @@
     --midBlue: #6CA4AC;
 }
 
+html, body {
+    background-color: var(--darkBlue);
+}
+
 h1, h2, h3,
 h4, h5, h6 {
     color: var(--darkBlue);    
