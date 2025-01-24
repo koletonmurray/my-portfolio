@@ -1,7 +1,5 @@
 import React from "react";
-//import Koleton from '../../assets/Koleton-Murray-Crop.png'
-//import Koleton from '../../assets/Koleton-Murray-Gray.png'
-import Koleton from '../../assets/Koleton-Murray-DullCROP.png'
+import Koleton from '../../assets/Koleton-Murray.png'
 
 import Logo from '../Logo';
 import logoImage from '../../assets/logo+name.png';
