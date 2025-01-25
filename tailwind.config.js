@@ -15,7 +15,7 @@ export default {
         'lightGray': '#D3D3D3',
         'midBlue': '#6CA4AC',
         'midPurple': '#6e5494',
-        'mediumGray': '#666666'
+        'midGray': '#666666'
       },
     },
   },

@@ -30,9 +30,9 @@ export default function Home() {
                 <div className="px-10 sm:px-20 py-10 text-midBlue max-w-[1000px] mx-auto flex flex-col md:flex-row items-center justify-center">
                     <div className="flex-1 text-left mx-auto sm:px-10">
                         <img className="h-[17em] mx-auto" src={logoImage} alt="Koleton Murray logo" />
-                        <h2 className="text-xl font-medium pt-0">
-                        Hey, <span className="wave">👋🏼</span> I'm <Logo/>!
-                        </h2>
+                        <h3 className="text-xl font-medium pt-0">
+                            Hey, <span className="wave">👋🏼</span> I'm <Logo/>!
+                        </h3>
                         <p className="pt-2">
                             I am a full-stack developer based in Utah! I am passionate about creating beautiful and efficient solutions that enhance user experience and solve real-world problems.<br/><br/>
                             <span className="text-darkBlue font-semibold">

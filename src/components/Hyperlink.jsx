@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Hyperlink = ({ href, IconComponent, children, externalLink = false, color = 'midBlue' }) => {
-  const baseClass = 'pb-2 hover:underline underline-offset-4';
-  const hoverColorClass = `hover:text-${color}`;
+const Hyperlink = ({ href, IconComponent, children, externalLink = false, color = 'darkBlue' }) => {
+  const baseClass = 'pb-2 underline underline-offset-4';
+  const hoverColorClass = `text-${color} hover:text-midBlue transition`;
   const getClassName = `${baseClass} ${hoverColorClass} line`;
 
   const LinkComponent = externalLink ? (
@@ -14,10 +14,10 @@ const Hyperlink = ({ href, IconComponent, children, externalLink = false, color 
     </a>
   ) : (
     // Internal Link
-    <Link to={href} className={getClassName}>
+    <a href={href} className={getClassName}>
       {IconComponent && <IconComponent className='translate-x-[-25%] translate-y-[-7.5%]' />}
       {children}
-    </Link>
+    </a>
   );
 
   return LinkComponent;

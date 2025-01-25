@@ -82,3 +82,48 @@ p {
     60% { transform: rotate( 0.0deg) }
     100% { transform: rotate( 0.0deg) }
 }
+
+/* Waves courtesy of https://www.shapedivider.app/ */
+.custom-shape-divider-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 63px;
+    transform: rotateY(180deg);
+}
+
+@media (max-width: 480px) {
+    .custom-shape-divider-top svg {
+      width: 150%;
+      height: auto;
+    }
+}
+
+.custom-shape-divider-top .shape-fill {
+    fill: var(--darkBlue);
+}
+
+h2 {
+    position: relative;
+}
+  
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 200px;
+    height: 20px;
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27300%27%20height%3D%2710%27%3E%3Cpath%20fill%3D%27none%27%20stroke%3D%27%231C5B74%27%20stroke-width%3D%272%27%20d%3D%27M0,5%20C75,10,%20150,0,%20225,5%20C300,10,%20375,0,%20450,5%27%20/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+}

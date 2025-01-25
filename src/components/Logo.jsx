@@ -12,7 +12,7 @@ const colorClasses = {
   midBlue: 'text-midBlue'
 };
 
-const Logo = ({styling, color, size, weight, dropPeriod = false}) => {
+export default function Logo ({styling, color, size, weight}) {
 
     const textColorClass = color ? colorClasses[color] : '';
     const textSizeClass = size ? `text-${size}` : '';
@@ -24,5 +24,3 @@ const Logo = ({styling, color, size, weight, dropPeriod = false}) => {
         </span>
     );
 };
-
-export default Logo;
