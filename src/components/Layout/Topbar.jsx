@@ -8,7 +8,7 @@ import Menu from '@mui/icons-material/Menu';
 
 function Topbar({setOpen}) {
   return (
-    <div className="bg-gradient-to-r from-darkBlue to-midBlue flex justify-between items-center px-2 py-2 sm:py-4">
+    <div className="bg-gradient-to-r from-darkBlue to-midBlue flex justify-between items-center px-2 py-2 sm:py-4 parent-container">
       <div className="custom-shape-divider-top">
         {/* Waves courtesy of https://www.shapedivider.app/ */}
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

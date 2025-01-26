@@ -84,6 +84,12 @@ p {
 }
 
 /* Waves courtesy of https://www.shapedivider.app/ */
+.parent-container {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .custom-shape-divider-top {
     position: absolute;
     top: 0;
