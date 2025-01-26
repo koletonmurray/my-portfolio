@@ -2,7 +2,6 @@ import { useState } from 'react';
 
 import Drawer from '@mui/material/Drawer';
 import Footer from './Footer.jsx';
-import Logo from '../Logo.jsx';
 import NavBar from './NavBar.jsx';
 import NavDrawer from './NavDrawer.jsx';
 import Topbar from './Topbar.jsx';
@@ -30,7 +29,6 @@ export default function Layout ({ children }) {
       <div className="flex flex-col min-h-screen transition">
         <Topbar open={mobileNavOpen} setOpen={setMobileNavOpen} />
         <Drawer open={mobileNavOpen} onClose={() => setMobileNavOpen(false)}>
-          <div className='bg-darkBlue h-10'/>
           <NavDrawer routes={routes} setOpen={setMobileNavOpen} />
         </Drawer>
         <NavBar routes={routes} />
