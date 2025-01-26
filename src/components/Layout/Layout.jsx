@@ -23,21 +23,22 @@ const routes = [
 
 
 export default function Layout ({ children }) {  
-    const [mobileNavOpen, setMobileNavOpen] = useState(false);  
+  const [mobileNavOpen, setMobileNavOpen] = useState(false);  
 
-    return (
-      <div className="flex flex-col min-h-screen transition">
-        <Topbar open={mobileNavOpen} setOpen={setMobileNavOpen} />
-        <Drawer open={mobileNavOpen} onClose={() => setMobileNavOpen(false)}>
-          <NavDrawer routes={routes} setOpen={setMobileNavOpen} />
-        </Drawer>
-        <NavBar routes={routes} />
-        <main className="flex-grow bg-white">
-          <div>
-            {children}
-          </div>
-        </main>
-        <Footer />
-      </div>
-    );
+  return (
+    <div className="flex flex-col min-h-screen transition">
+      <Topbar open={mobileNavOpen} setOpen={setMobileNavOpen} />
+      <Drawer open={mobileNavOpen} onClose={() => setMobileNavOpen(false)}>
+        <div className='bg-darkBlue h-10'/>
+        <NavDrawer routes={routes} setOpen={setMobileNavOpen} />
+      </Drawer>
+      <NavBar routes={routes} />
+      <main className="flex-grow bg-white">
+        <div>
+          {children}
+        </div>
+      </main>
+      <Footer />
+    </div>
+  )
 }
