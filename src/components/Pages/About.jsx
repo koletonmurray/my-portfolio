@@ -8,7 +8,7 @@ import Timp from "../../assets/koleton-timp.png";
 export default function About () {
     return (
         <>
-            <div className="px-10 sm:px-20 py-10 text-midBlue max-w-[1000px] mx-auto">
+            <div className="px-10 sm:px-20 pb-10 sm:py-10 text-midBlue max-w-[1000px] mx-auto">
                 <div className="text-left px-5 sm:px-20 pt-5 text-black">
                     <div id="my-story" className="flex flex-col sm:flex-row items-start gap-4 sm:gap-8">
                         <div className="order-2 sm:order-1 flex-1">
@@ -65,7 +65,7 @@ export default function About () {
                         </div>
                         <ImageDisplay
                             image={AIKoleton}
-                            alt="iOS Playground AI image of Koleton"
+                            alt="edited iOS Playground AI image of Koleton"
                         />
                     </div>
                     <div id="personal-values">

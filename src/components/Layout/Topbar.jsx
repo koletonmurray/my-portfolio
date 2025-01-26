@@ -18,7 +18,7 @@ function Topbar({setOpen}) {
         </svg>
       </div>
       <div className='flex justify-start items-center flex-1'>
-        <div className='sm:hidden absolute top-3 left-3'>
+        <div className='sm:hidden absolute mt-5 left-3'>
           <IconButton onClick={() => setOpen(true)}>
             <Menu style={{ color: 'white' }}/>
           </IconButton>
@@ -32,11 +32,19 @@ function Topbar({setOpen}) {
           </Link>
         </div>
       </div>
+
+      <div className='flex justify-start items-center'>
+        <div className='flex sm:hidden mt-7'>
+          <Link to={'/'}>
+            <Logo color={'lightBlue'} size={'2xl'}/>
+          </Link>
+        </div>
+      </div>
       
       <Link to={'/'}>
         <img 
           src={logoImage} 
-          className="absolute top-0 right-0 z-10 h-[6em] sm:h-[8em] pr-2 sm:pr-10" 
+          className="absolute top-5 sm:top-0 right-0 z-10 h-[5em] sm:h-[8em] pr-2 sm:pr-10" 
           alt="Koleton Murray logo"
         />
       </Link>

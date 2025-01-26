@@ -6,7 +6,7 @@ export default function ImageDisplay ({ image, alt, className = '' }) {
       <img
         src={image}
         alt={alt}
-        className="mx-auto rounded-xl mb-4 sm:mb-0 sm:mt-[5em]"
+        className="mx-auto rounded-xl mt-5 sm:mt-[5em]"
       />
     </div>
   );
