@@ -88,7 +88,7 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 150%;
     overflow: hidden;
     line-height: 0;
 }
@@ -99,12 +99,25 @@ p {
     width: calc(100% + 1.3px);
     height: 63px;
     transform: rotateY(180deg);
+    animation: wave-move 6s ease-in-out infinite; /* Smoother, longer animation */
+}
+
+@keyframes wave-move {
+    0% {
+        transform: rotateY(180deg) translateX(0);
+    }
+    50% {
+        transform: rotateY(180deg) translateX(30px); /* Smaller range of movement */
+    }
+    100% {
+        transform: rotateY(180deg) translateX(0);
+    }
 }
 
 @media (max-width: 480px) {
     .custom-shape-divider-top svg {
       width: 150%;
-      height: auto;
+      height: 40px;
     }
 }
 
@@ -112,6 +125,7 @@ p {
     fill: var(--darkBlue);
 }
 
+/* Add accent line under H2 tags */
 h2 {
     position: relative;
 }
@@ -119,11 +133,10 @@ h2 {
 h2::after {
     content: '';
     position: absolute;
-    bottom: -12px;
+    bottom: -14px;
     left: 0;
     width: 200px;
     height: 20px;
     background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27300%27%20height%3D%2710%27%3E%3Cpath%20fill%3D%27none%27%20stroke%3D%27%231C5B74%27%20stroke-width%3D%272%27%20d%3D%27M0,5%20C75,10,%20150,0,%20225,5%20C300,10,%20375,0,%20450,5%27%20/%3E%3C/svg%3E");
     background-repeat: no-repeat;
-    background-size: contain;
 }
