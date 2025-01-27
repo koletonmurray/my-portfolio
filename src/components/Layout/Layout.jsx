@@ -12,7 +12,7 @@ const routes = [
       path: "/",
     },
     {
-      label: "About",
+      label: "About Me",
       path: "/about",
     },
     {

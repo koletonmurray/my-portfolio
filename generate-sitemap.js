@@ -32,7 +32,6 @@ async function generateSitemap() {
     sitemapStream.end();
     const sitemap = await streamToPromise(sitemapStream);
     writeStream.write(sitemap.toString());
-    console.log('Sitemap successfully generated!');
   } catch (error) {
     console.error('Error generating sitemap:', error);
   } finally {

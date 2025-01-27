@@ -45,11 +45,13 @@ header {
 h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    line-height: 1.2;
 }
 
 h2 {
     font-size: 2rem;
     margin-bottom: 0.8rem;
+    line-height: 1.2;
 }
 
 h3 {
@@ -88,6 +90,7 @@ p {
     position: relative;
     width: 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .custom-shape-divider-top {

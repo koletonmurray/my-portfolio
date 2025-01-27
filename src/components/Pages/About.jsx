@@ -9,7 +9,7 @@ export default function About () {
     return (
         <>
             <div className="px-10 sm:px-20 pb-10 sm:py-10 text-midBlue max-w-[1000px] mx-auto">
-                <div className="text-left px-5 sm:px-20 pt-5 text-black">
+                <div className="text-left px-0 sm:px-20 pt-5 text-black">
                     <div id="my-story" className="flex flex-col sm:flex-row items-start gap-4 sm:gap-8">
                         <div className="order-2 sm:order-1 flex-1">
                             <EmojiRotator emojis={['📊', '👨🏼‍💻', '🖥️', '🎓']} heading={'My Story'}/>

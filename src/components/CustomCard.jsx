@@ -1,9 +1,10 @@
 import {
-    Card,
-    CardBody,
-    CardFooter,
-    Button,
-  } from "@material-tailwind/react";
+  Card,
+  CardBody,
+  CardFooter,
+  Button,
+} from "@material-tailwind/react";
+import { Link } from "react-router-dom";
   
   export default function CustomCard({ title, text, buttonText, buttonLink, Icon }) {
     return (
@@ -19,12 +20,12 @@ import {
           </h3>
           <p>{text}</p>
         </CardBody>
-        <CardFooter className="pt-0">
-          <a href={buttonLink} className="inline-block">
+        <CardFooter className="pt-0 mx-auto sm:mx-0">
+          <Link to={buttonLink} className="inline-block">
             <Button size="sm" variant="text" className="flex items-center gap-2 border border-darkBlue sm:border-midBlue hover:border-darkBlue text-white bg-darkBlue sm:text-darkBlue sm:bg-white hover:bg-darkBlue hover:text-white px-3">
               {buttonText} →
             </Button>
-          </a>
+          </Link>
         </CardFooter>
       </Card>
     );

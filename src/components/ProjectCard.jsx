@@ -2,10 +2,7 @@ import { Link } from "react-router-dom"
 import { Button } from '@mui/material';
 
 export default function ProjectCard ( {project} ) {
-    console.log("ProjectCard received project:", project); // Debugging
     const { title, subtitle, skills, link } = project;
-    console.log(title)
-    console.log(subtitle)
 
     return (
         <div className="pb-5">
