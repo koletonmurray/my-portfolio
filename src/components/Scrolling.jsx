@@ -31,7 +31,8 @@ export default function Scrolling() {
 
   // Scroll to top button
   const trigger = useScrollTrigger({
-    threshold: 100,
+    disableHysteresis: true, // Ensures only true scroll events trigger the button
+    threshold: 100, // Button appears when the scroll is beyond 100px
   });
 
   const scrollToTop = useCallback(() => {
