@@ -16,6 +16,7 @@
 
 html, body {
     background-color: var(--darkBlue);
+    overscroll-behavior: contain;
 }
 
 h1, h2, h3,

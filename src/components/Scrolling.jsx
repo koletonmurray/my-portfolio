@@ -19,7 +19,7 @@ function scrollToTopOnChange({pathname}) {
   }, [pathname]);  
 }
 
-function Scrolling() {
+export default function Scrolling() {
   // Anchor tag smooth scroll
   useEffect(() => {
     initializeSmoothScroll();
@@ -73,6 +73,4 @@ function Scrolling() {
       </Zoom>
     </>
   );
-}
-
-export default Scrolling;
+};
