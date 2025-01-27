@@ -1,13 +1,16 @@
 import { Link } from "react-router-dom"
 import { Button } from '@mui/material';
 
+import CustomCarousel from "./CustomCarousel";
+
 export default function ProjectCard ( {project} ) {
-    const { title, subtitle, skills, link } = project;
+    const { title, subtitle, skills, link, carousel } = project;
 
     return (
-        <div className="pb-5">
-            {title && <h3>{title}</h3>}
-            {subtitle && <h4>{subtitle}</h4>}
+        <div className="pb-10">
+            {title && <h2 className="">{title}</h2>}
+            {subtitle && <p>{subtitle}</p>}
+            {carousel && <CustomCarousel slides={carousel} />}
             {skills && 
                 <div>
                     <h5>Skills:</h5>
