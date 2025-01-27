@@ -3,7 +3,7 @@ import React from 'react';
 
 import { IconButton } from '@mui/material';
 import Logo from '../Logo';
-import logoImage from '../../assets/icon.png';
+import logoImage from '../../assets/logo.png';
 import Menu from '@mui/icons-material/Menu';
 
 function Topbar({setOpen}) {

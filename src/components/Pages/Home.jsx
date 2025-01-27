@@ -2,9 +2,9 @@ import React from "react";
 
 import CustomCard from "../CustomCard";
 import { AutoStories, Computer } from "@mui/icons-material";
-import Koleton from '../../assets/koleton-murray.png'
+import Koleton from '../../assets/koleton-portrait.png'
 import Logo from '../Logo';
-import logoImage from '../../assets/icon.png';
+import logoImage from '../../assets/logo.png';
 
 export default function Home() {
     const cards = [

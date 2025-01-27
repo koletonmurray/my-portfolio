@@ -1,4 +1,4 @@
-import AIKoleton from "../../assets/ai-koleton.png";
+import AIKoleton from "../../assets/koleton-ai.png";
 import EmojiRotator from "../EmojiRotator";
 import Hyperlink from "../Hyperlink"
 import ImageDisplay from "../ImageDisplay";
