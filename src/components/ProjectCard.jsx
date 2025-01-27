@@ -4,31 +4,43 @@ import { Button } from '@mui/material';
 import CustomCarousel from "./CustomCarousel";
 
 export default function ProjectCard ( {project} ) {
-    const { title, subtitle, skills, link, carousel } = project;
+    const { title, subtitle, bulletTitle, bullets, skills, link, linkText, carousel } = project;
 
     return (
-        <div className="pb-10">
-            {title && <h2 className="">{title}</h2>}
-            {subtitle && <p>{subtitle}</p>}
+        <div className="pb-20">
+            {title && <h2 className="text-2xl">{title}</h2>}
+            {subtitle && <p className="">{subtitle}</p>}
             {carousel && <CustomCarousel slides={carousel} />}
+            {bulletTitle && <h5 className="text-lg">{bulletTitle}</h5>}
+            {bullets && 
+                <ul className="pb-10 list-disc pl-5 marker:text-darkBlue">
+                    {bullets.map((bullet, index) => {
+                        return <li key={index}>{bullet}</li>
+                    })}
+                </ul>
+            }
             {skills && 
-                <div>
-                    <h5>Skills:</h5>
-                    <p>{skills}</p>
-                </div>
+                <p className="text-lg">
+                    <span className="text-darkBlue font-bold">Skills: </span>
+                    {skills}
+                </p>
             }
             {link && (
-                <Link to={link} target="_blank">
-                    <Button variant="contained"
-                        sx={{
-                            backgroundColor: '#57b9d0',
-                            '&:hover': {
-                                backgroundColor: '#3587a1',
-                            },
+                <div className="flex justify-center sm:justify-start">
+                    <Link className="mx-auto sm:mx-0" to={link} target="_blank">
+                        <Button 
+                            size="large"
+                            variant="contained"
+                            sx={{
+                                backgroundColor: '#6CA4AC',
+                                '&:hover': {
+                                    backgroundColor: '#1C5B74',
+                                },
                         }}>
-                        View Project
-                    </Button>
-                </Link>
+                            {linkText ? linkText : "View Project"}
+                        </Button>
+                    </Link>
+                </div>
             )}
         </div>
     )
