@@ -34,7 +34,7 @@ export default function About () {
                     <div id="skills">
                         <h2>Skills</h2>
                         <ul>
-                            <li><b className="text-darkBlue">Proficient:</b> JavaScript, React, Python, AWS, SQL, HTML, CSS, R, Excel</li>
+                            <li className="mb-7 sm:mb-2"><b className="text-darkBlue">Proficient:</b> JavaScript, React, Python, AWS, SQL, HTML, CSS, R, Excel</li>
                             <li><b className="text-darkBlue">Experienced:</b> Swift, TypeScript, Node, Django, ASP.net, Tableau</li>
                         </ul>
                         <p></p>

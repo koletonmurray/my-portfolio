@@ -14,10 +14,10 @@ const Hyperlink = ({ href, IconComponent, children, externalLink = false, color 
     </a>
   ) : (
     // Internal Link
-    <a href={href} className={getClassName}>
+    <Link to={href} className={getClassName}>
       {IconComponent && <IconComponent className='translate-x-[-25%] translate-y-[-7.5%]' />}
       {children}
-    </a>
+    </Link>
   );
 
   return LinkComponent;
