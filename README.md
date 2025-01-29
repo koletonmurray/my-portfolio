@@ -25,12 +25,15 @@ If you’d like to run this project locally, follow these steps:
 ### **1. Clone the Repository**  
 ```bash
 git clone https://github.com/koletonmurray/my-portfolio.git
+```
 
-### **2. Run the Project
+### **2. Run the Project**
+```bash
 cd my-portfolio
 npm start
+```
 
-### **3. Open the Project in your Browser
+### **3. Open the Project in your Browser**
 Navigate to http://localhost:5173
 
 By default, the project should run on port 5173, but if that port is in use, check the terminal output for the actual development server URL.
