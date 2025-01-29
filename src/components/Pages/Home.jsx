@@ -41,7 +41,7 @@ export default function Home() {
                         </p>
                     </div>
                     <div className="flex-1 text-right pt-5 sm:pt-0">
-                        <img className="h-[25em] mx-auto" src={Koleton} alt="Portrait photo of Koleton" />
+                        <img className="h-[25em] mx-auto rounded-2xl" src={Koleton} alt="Portrait photo of Koleton" />
                     </div>
                     
                 </div>
