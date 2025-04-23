@@ -42,4 +42,4 @@ jobs:
 
       # Step 6: Cache invalidation
       - name: Invalidate CloudFront Cache
-        run: aws cloudfront create-invalidation --distribution-id E35TO6Z5UK86ZO  --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
