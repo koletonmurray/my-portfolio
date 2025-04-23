@@ -39,3 +39,7 @@ jobs:
       # Step 5: Sync the build folder to S3
       - name: Sync files to S3 with cache control
         run: aws s3 sync ./dist s3://koleton-murray-portfolio --delete
+
+      # Step 6: Cache invalidation
+      - name: Invalidate CloudFront Cache
+        run: aws cloudfront create-invalidation --distribution-id E35TO6Z5UK86ZO  --paths "/*"

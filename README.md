@@ -7,7 +7,8 @@ This is my personal portfolio website where I showcase my projects, technical sk
 ## 🛠️ Tech Stack  
 
 - **Frontend:** React, Tailwind CSS, React Router  
-- **Hosting:** AWS S3 & CloudFront  
+- **Hosting:** AWS S3 & CloudFront
+- **Deployment** GitHub Actions
 - **Additional Tools:** Material-UI
 
 ## 🎨 Features  
