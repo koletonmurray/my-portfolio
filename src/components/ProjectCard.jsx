@@ -13,7 +13,7 @@ export default function ProjectCard ( {project} ) {
             {carousel && <CustomCarousel slides={carousel} />}
             {bulletTitle && <h5 className="text-lg">{bulletTitle}</h5>}
             {bullets && 
-                <ul className="pb-10 list-disc pl-5 marker:text-darkBlue">
+                <ul className="pt-2 pb-10 list-disc pl-5 marker:text-darkBlue">
                     {bullets.map((bullet, index) => {
                         return <li key={index}>{bullet}</li>
                     })}
