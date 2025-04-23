@@ -17,7 +17,7 @@ export default function Home() {
         },
         {
           title: "Featured Projects",
-          text: "Explore the projects I've worked on, fromscalable web solutions to mobile apps.",
+          text: "Explore the projects I've worked on, from scalable web solutions to mobile apps.",
           buttonText: "View Projects",
           buttonLink: "/projects",
           Icon: Computer,
