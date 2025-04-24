@@ -1,7 +1,7 @@
-import AIKoleton from "../../assets/koleton-ai.png";
 import EmojiRotator from "../EmojiRotator";
 import Hyperlink from "../Hyperlink"
 import ImageDisplay from "../ImageDisplay";
+import Koleton from "../../assets/koleton-grad.jpg";
 import Nebo from "../../assets/koleton-nebo.png";
 import Timp from "../../assets/koleton-timp.png";
 
@@ -64,7 +64,7 @@ export default function About () {
                             </p>
                         </div>
                         <ImageDisplay
-                            image={AIKoleton}
+                            image={Koleton}
                             alt="edited iOS Playground AI image of Koleton"
                         />
                     </div>

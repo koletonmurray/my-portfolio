@@ -2,7 +2,7 @@ import React from "react";
 
 import CustomCard from "../CustomCard";
 import { AutoStories, Computer } from "@mui/icons-material";
-import Koleton from '../../assets/koleton-portrait.png'
+import Koleton from '../../assets/koleton-standing.png'
 import Logo from '../Logo';
 import logoImage from '../../assets/logo.png';
 
