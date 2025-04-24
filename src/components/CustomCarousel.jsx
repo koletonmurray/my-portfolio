@@ -64,10 +64,10 @@ export default function CustomCarousel({ slides }) {
             <img
               src={fullscreenImage.image}
               alt="Full screen"
-              className="max-h-[90vh] max-w-[90vw] object-contain"
+              className="max-h-[70vh] sm:max-h-[90vh] max-w-[90vw] object-contain"
             />
             {fullscreenImage.caption && (
-              <p className="text-white text-center mt-4 text-lg font-semibold opacity-80 max-w-[90vw]">
+              <p className="text-white text-left mt-4 text-lg font-semibold opacity-80 max-w-[90vw]">
                 {fullscreenImage.caption}
               </p>
             )}
