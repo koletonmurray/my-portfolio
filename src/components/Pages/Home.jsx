@@ -27,7 +27,7 @@ export default function Home() {
     return (
         <>
             <div className="bg-white">
-                <div className="px-10 sm:px-20 py-10 text-midBlue max-w-[1000px] mx-auto flex flex-col md:flex-row items-center justify-center">
+                <div className="hidden sm:flex px-10 sm:px-20 py-10 text-midBlue max-w-[1000px] mx-auto flex flex-col md:flex-row items-center justify-center">
                     <div className="flex-1 text-left mx-auto sm:px-10">
                         <img className="h-[17em] mx-auto" src={logoImage} alt="Koleton Murray logo" />
                         <h3 className="text-xl font-medium pt-0">
@@ -43,7 +43,23 @@ export default function Home() {
                     <div className="flex-1 text-right pt-5 sm:pt-0">
                         <img className="h-[25em] mx-auto rounded-2xl" src={Koleton} alt="Portrait photo of Koleton" />
                     </div>
-                    
+                </div>
+                <div className="flex sm:hidden px-10 sm:px-20 py-10 text-midBlue max-w-[1000px] mx-auto flex flex-col md:flex-row items-center justify-center">
+                    <div className="flex-1 text-left mx-auto sm:px-10">
+                        <img className="h-[20em] mx-auto rounded-2xl mt-10" src={Koleton} alt="Portrait photo of Koleton" />
+                        <h3 className="text-xl font-medium pt-10">
+                            Hey, <span className="wave">👋🏼</span> I'm <Logo/>!
+                        </h3>
+                        <p className="pt-2">
+                            I am a full-stack developer based in Utah! I am passionate about creating beautiful and efficient solutions that enhance user experience and solve real-world problems.<br/><br/>
+                            <span className="text-darkBlue font-semibold">
+                                Let's build something amazing together!
+                            </span>
+                        </p>
+                    </div>
+                    <div className="flex-1 text-right">
+                        <img className="h-[15em] mx-auto" src={logoImage} alt="Koleton Murray logo" />
+                    </div>
                 </div>
             </div>
             <div className="bg-cream">
