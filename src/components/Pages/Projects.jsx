@@ -165,8 +165,8 @@ const projectList = [
         ]
     },
     {
-        title: "Other GitHub Projects",
-        subtitle:     "In addition to the featured projects above, I've built other projects across web, mobile, backend, and data-focused domains. From class assignments to experimental tools and real-world prototypes, these projects showcase my range as a full-stack developer. Feel free to browse my repositories for code samples, ideas, and ongoing development.",
+        title: "Other Development Projects",
+        subtitle: "In addition to the featured projects above, I've built other projects across web, mobile, backend, and data-focused domains. From class assignments to experimental tools and real-world prototypes, these projects showcase my range as a full-stack developer. Feel free to browse my repositories for code samples, ideas, and ongoing development.",
         link: "https://github.com/koletonmurray",
         linkText: "Explore my GitHub",
     }

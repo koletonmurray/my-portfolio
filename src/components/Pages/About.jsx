@@ -14,16 +14,10 @@ export default function About () {
                         <div className="order-2 sm:order-1 flex-1">
                             <EmojiRotator emojis={['📊', '👨🏼‍💻', '🖥️', '🎓']} heading={'My Story'}/>
                             <p>
-                                I started my academic journey exploring various majors. I spent three years studying a variety of degrees; accounting, finance, engineering, computer science, 
-                                and psychology, among others. None of these fields felt quite right. Feeling uncertain of my future, I decided to take an Introduction to 
-                                Information Systems class. While taking that course, everything clicked. Information Systems felt like the perfect fit and came naturally to me. It was the 
-                                perfect balance of business, technology, and data.
+                                I started my academic journey exploring a variety of fields—accounting, finance, engineering, computer science, and psychology. None of them felt quite right. After 3 years of uncertainty, I took an Introduction to Information Systems course, and everything clicked. It offered the perfect blend of business, technology, and data. It came naturally to me, and I loved it. That moment set the course for both my academic and professional path.
                             </p>
                             <p>
-                                Since then, I've studied mobile app development, web development, data analytics, machine learning, 
-                                data engineering, and cloud architecture. I have earned my bachelor's and master's degrees in Information Systems 
-                                Management. Along my academic journey, I have gained valuable real-world experience harnessing my technical expertise, business knowledge, and 
-                                problem-solving skills.
+                                Since then, I've earned both my bachelor's and master's degrees in Information Systems Management from BYU. There I studied mobile and web development, data analytics, machine learning, data engineering, and cloud architecture. More importantly, I applied those skills in real-world settings. I worked on various projects building technical solutions to people's problems and have refined my technical and leadership skills. My experience has taught me how to bridge the gap between technical solutions and real user needs.
                             </p>
                         </div>
                         <ImageDisplay
@@ -52,8 +46,8 @@ export default function About () {
                         <div className="order-2 sm:order-1 flex-1">
                             <EmojiRotator emojis={['📱', '💻', '🏃🏼‍♂️', '💳', '🛠️', '👨🏻‍🍳']} heading={'My Work'}/>
                             <p>
-                                •   Made a website storefront selling thousands of dollars annually.<br/>
-                                •	Developed a content website with thousands of scholarly publications.<br/>
+                                •   Developed a website storefront selling tens of thousands of dollars annually.<br/>
+                                •	Rebuilt an efficient and modern content website with thousands of scholarly publications.<br/>
                                 •	Optimized performance for websites, automated workflows, and enhanced day-to-day business operations.<br/>
                                 •	Built mobile apps for recipes, physical therapy, and time management.
                             </p>
@@ -65,28 +59,29 @@ export default function About () {
                         </div>
                         <ImageDisplay
                             image={Koleton}
-                            alt="edited iOS Playground AI image of Koleton"
+                            alt="Portrait photo of Koleton"
                         />
                     </div>
                     <div id="personal-values">
-                        <EmojiRotator emojis={['👏🏼', '👨🏻‍🏫', '📝', '👨🏼‍💻']} heading={'Personal Values'}/>
+                        <EmojiRotator emojis={['👥', '🌱 ', '👏🏼', '🧠', '📝', '👨🏼‍💻']} heading={'Personal Values'}/>
                         <p>
-                            I thrive in team-oriented environments and love mentoring others. My experience leading teams and volunteering 
-                            has helped me make an impact in my community. I love combining technical expertise, problem-solving skills, and 
-                            business knowledge. I value knowledge and have a drive for continuous learning. I believe in giving users a positive experience. 
-                            It's a goal of mine to improve the user experience in every system I have the opportunity to work with.
+                           I am a strong advocate for respect and understanding and believe that diverse people and experiences make the best teams. 
+                           I am passionate about mentorship. I’ve had incredible individuals support me along my journey, and I love opportunities 
+                           to help others in theirs. My experience leading teams and volunteering has allowed me to make a positive impact in my 
+                           community. I’m always striving to learn and expand my understanding. I enjoy blending my technical expertise, problem-solving, 
+                           and business insight to create meaningful solutions. I believe in giving users a great experience. 
                         </p>
                     </div>
                     <div id="hobbies" className="flex flex-col sm:flex-row items-start gap-4 sm:gap-8">
                         <div className="order-2 sm:order-1 flex-1">
-                            <EmojiRotator emojis={['🥾', '🏔️', '⛷️', '🏕️', '📸', '🏃🏻‍♂️', '📚', '🎥', '🧩', '🛩️', '🥘']} heading={'Hobbies'}/>
+                            <EmojiRotator emojis={['🚵🏻‍♂️', '🥾', '🏔️', '⛷️', '🏕️', '📸', '🏃🏻‍♂️', '📚', '🎥', '🧩', '🛩️', '🥘']} heading={'Hobbies'}/>
                             <p>
-                                When I'm not coding, you might find me summiting Utah mountains, canyoneering through southern Utah slot canyons, and backpacking in the backcountry. 
+                                When I'm not coding, you might find me mountain biking, hiking Utah's peaks, canyoneering through southern Utah slot canyons, and backpacking in the backcountry. 
                                 I enjoy skiing both on water and fresh powder. I love exploring the outdoors and capturing the beauty of nature through photography.
                             </p>
                             <p>
-                                I enjoy solving jigsaw puzzles, getting lost in fiction novels, and catching the latest films. 
-                                Board games and card games are my favorite activities with friends and family. I love to travel and capture photos of my adventures.
+                                I enjoy solving jigsaw puzzles, getting lost in fiction novels, and catching the latest films and TV shows. 
+                                When I'm with family and friends, we play plenty of board games and card games. I love to travel and capture photos of my adventures.
                                 I enjoy exploring new cultures and cuisines. I'm always up for a new adventure!
                             </p>
                         </div>
