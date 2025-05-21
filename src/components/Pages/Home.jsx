@@ -10,7 +10,7 @@ export default function Home() {
     const cards = [
         {
           title: "My Story",
-          text: "Learn more about my journey, skills, and experiences in the world of tech.",
+          text: "Learn more about my journey, skills, hobbies, values, and experiences in the world of tech.",
           buttonText: "Read More",
           buttonLink: "/about",
           Icon: AutoStories,
@@ -34,7 +34,7 @@ export default function Home() {
                             Hey, <span className="wave">👋🏼</span> I'm <Logo/>!
                         </h3>
                         <p className="pt-2">
-                            I am a full-stack developer based in Utah! I am passionate about creating beautiful and efficient solutions that enhance user experience and solve real-world problems.<br/><br/>
+                            I’m a full-stack developer based in Utah. I enjoy building things that are both useful and easy to use. I love solving problems, improving systems, creating positive experiences, and learning something new along the way.<br/><br/>
                             <span className="text-darkBlue font-semibold">
                                 Let's build something amazing together!
                             </span>
@@ -51,7 +51,7 @@ export default function Home() {
                             Hey, <span className="wave">👋🏼</span> I'm <Logo/>!
                         </h3>
                         <p className="pt-2">
-                            I am a full-stack developer based in Utah! I am passionate about creating beautiful and efficient solutions that enhance user experience and solve real-world problems.<br/><br/>
+                            I’m a full-stack developer based in Utah. I enjoy building things that are both useful and easy to use. I love solving problems, improving systems, creating positive experiences, and learning something new along the way.<br/><br/>
                             <span className="text-darkBlue font-semibold">
                                 Let's build something amazing together!
                             </span>
@@ -66,12 +66,12 @@ export default function Home() {
                 <div className="px-12 sm:px-20 py-5 text-midBlue max-w-[1000px] mx-auto flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-6">
                     {cards.map((item, index) => (
                         <CustomCard
-                        key={index}
-                        title={item.title}
-                        text={item.text}
-                        buttonText={item.buttonText}
-                        buttonLink={item.buttonLink}
-                        Icon={item.Icon}
+                            key={index}
+                            title={item.title}
+                            text={item.text}
+                            buttonText={item.buttonText}
+                            buttonLink={item.buttonLink}
+                            Icon={item.Icon}
                         />
                     ))}
                 </div>
