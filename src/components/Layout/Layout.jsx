@@ -6,20 +6,15 @@ import NavBar from './NavBar.jsx';
 import NavDrawer from './NavDrawer.jsx';
 import Topbar from './Topbar.jsx';
 
+import HomeRounded from '@mui/icons-material/HomeRounded';
+import InfoRounded from '@mui/icons-material/InfoRounded';
+import TerminalRounded from '@mui/icons-material/TerminalRounded';
+
 const routes = [
-    {
-      label: "Home",
-      path: "/",
-    },
-    {
-      label: "About Me",
-      path: "/about",
-    },
-    {
-      label: "Projects",
-      path: '/projects'
-    }
-  ];
+  { label: 'Home', path: '/', Icon: HomeRounded },
+  { label: 'About Me', path: '/about', Icon: InfoRounded },
+  { label: 'Projects', path: '/projects', Icon: TerminalRounded },
+];
 
 
 export default function Layout ({ children }) {  

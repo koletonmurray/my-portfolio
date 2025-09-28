@@ -28,8 +28,8 @@ export default function About () {
                     <div id="skills">
                         <h2>Skills</h2>
                         <ul>
-                            <li className="mb-7 sm:mb-2"><b className="text-darkBlue">Proficient:</b> JavaScript, React, Python, AWS, SQL, HTML, CSS, R, Excel</li>
-                            <li><b className="text-darkBlue">Experienced:</b> Swift, TypeScript, Node, Django, ASP.net, C#, Tableau</li>
+                            <li className="mb-7 sm:mb-2"><b className="text-darkBlue">Proficient:</b> JavaScript, TypeScript, React, Python, SQL, AWS, HTML, CSS, R, Excel</li>
+                            <li><b className="text-darkBlue">Experienced:</b> Jest, Storybook, Swift, Node, Django, ASP.net, C#, Tableau</li>
                         </ul>
                         <p></p>
                     </div>
@@ -44,9 +44,10 @@ export default function About () {
                     </div>
                     <div id="my-work" className="flex flex-col sm:flex-row items-start gap-4 sm:gap-8">
                         <div className="order-2 sm:order-1 flex-1">
-                            <EmojiRotator emojis={['📱', '💻', '🏃🏼‍♂️', '💳', '🛠️', '👨🏻‍🍳']} heading={'My Work'}/>
+                            <EmojiRotator emojis={['🤖', '📱', '💻', '🏃🏼‍♂️', '💳', '🛠️', '👨🏻‍🍳']} heading={'My Work'}/>
                             <p>
-                                •   Developed a website storefront selling tens of thousands of dollars annually.<br/>
+                                •	Engineered UI elements for AI-powered customer insights.<br/>
+                                •	Developed a website storefront selling tens of thousands of dollars annually.<br/>
                                 •	Rebuilt an efficient and modern content website with thousands of scholarly publications.<br/>
                                 •	Optimized performance for websites, automated workflows, and enhanced day-to-day business operations.<br/>
                                 •	Built mobile apps for recipes, physical therapy, and time management.
@@ -74,13 +75,13 @@ export default function About () {
                     </div>
                     <div id="hobbies" className="flex flex-col sm:flex-row items-start gap-4 sm:gap-8">
                         <div className="order-2 sm:order-1 flex-1">
-                            <EmojiRotator emojis={['🚵🏻‍♂️', '🥾', '🏔️', '⛷️', '🏕️', '📸', '🏃🏻‍♂️', '📚', '🎥', '🧩', '🛩️', '🥘']} heading={'Hobbies'}/>
+                            <EmojiRotator emojis={['🚵🏻‍♂️', '🥾', '🏔️', '⛷️', '🏕️', '📸', '🏃🏻‍♂️', '🎮', '📚', '🎥', '🧩', '🛩️', '🥘']} heading={'Hobbies'}/>
                             <p>
                                 When I'm not coding, you might find me mountain biking, hiking Utah's peaks, canyoneering through southern Utah slot canyons, and backpacking in the backcountry. 
                                 I enjoy skiing both on water and fresh powder. I love exploring the outdoors and capturing the beauty of nature through photography.
                             </p>
                             <p>
-                                I enjoy solving jigsaw puzzles, getting lost in fiction novels, and catching the latest films and TV shows. 
+                                I enjoy solving jigsaw puzzles, playing video games, getting lost in fiction novels, and catching the latest films and TV shows. 
                                 When I'm with family and friends, we play plenty of board games and card games. I love to travel and capture photos of my adventures.
                                 I enjoy exploring new cultures and cuisines. I'm always up for a new adventure!
                             </p>

@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import React from 'react';
 
 import { IconButton } from '@mui/material';
 import Logo from '../Logo';
