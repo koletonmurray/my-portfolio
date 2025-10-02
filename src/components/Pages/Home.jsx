@@ -51,7 +51,7 @@ export default function Home() {
                             Hey, <span className="wave">👋🏼</span> I'm <Logo/>!
                         </h3>
                         <p className="pt-2">
-                            I’m a full-stack developer based in Utah. I enjoy building things that are both useful and easy to use. I love solving problems, improving systems, creating positive experiences, and learning something new along the way.<br/><br/>
+                            I’m a software engineer based in Utah. I enjoy building things that are both useful and easy to use. I love solving problems, improving systems, creating positive experiences, and learning something new along the way.<br/><br/>
                             <span className="text-darkBlue font-semibold">
                                 Let's build something amazing together!
                             </span>
