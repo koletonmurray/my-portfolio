@@ -47,7 +47,7 @@ export default function Home() {
                 <div className="flex sm:hidden px-10 sm:px-20 py-10 text-midBlue max-w-[1000px] mx-auto flex flex-col md:flex-row items-center justify-center">
                     <div className="flex-1 text-left mx-auto sm:px-10">
                         <img className="h-[20em] mx-auto rounded-2xl mt-10" src={Koleton} alt="Portrait photo of Koleton" />
-                        <h3 className="text-xl font-medium pt-10">
+                        <h3 className="text-xl text-center font-medium pt-7 pb-5">
                             Hey, <span className="wave">👋🏼</span> I'm <Logo/>!
                         </h3>
                         <p className="pt-2">
@@ -56,6 +56,7 @@ export default function Home() {
                                 Let's build something amazing together!
                             </span>
                         </p>
+                        
                     </div>
                     <div className="flex-1 text-right">
                         <img className="h-[15em] mx-auto" src={logoImage} alt="Koleton Murray logo" />
